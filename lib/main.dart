@@ -5,6 +5,8 @@ import 'package:flutterbasics315/screens/14_add_card.dart';
 import 'package:flutterbasics315/screens/15_add_snackbar.dart';
 import 'package:flutterbasics315/screens/16_add_textformfield.dart';
 import 'package:flutterbasics315/screens/17_add_navigation.dart';
+import 'package:flutterbasics315/screens/18_add_homescreen.dart';
+import 'package:flutterbasics315/screens/19_activity7.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AddNavigation(),
+      home: const Activity(),
       debugShowCheckedModeBanner: false,
     );
   }
